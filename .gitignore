@@ -1,0 +1,4 @@
+/wp-content/uploads/forms/*
+/wp-content/debug.log
+/stats/*
+/.errordocs/*

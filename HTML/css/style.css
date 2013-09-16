@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.wrapper{	
+	
+	margin:0 auto;
+	
+}
+
+img.source-image {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin:0;
+	z-index: -5000;
+}
+
+.top-header{
+	font-size: 10px;
+	font-family:"myriad Pro";
+	width:100%;
+
+}
+
+.logo{
+	float:left;
+	position:absolute;
+	margin-left:20%;
+	min-width:300px;
+	
+}
+
+.logo img{
+	width:65%;
+	margin-left:25%;
+}
+
+.flavour-img{
+	float:left;
+	margin-top:1px;
+	margin-right:2%;
+	
+}
+
+.nav1{
+	float:left;;
+	display:block;
+	font-size: 10px;
+	font-family:"myriad Pro";
+	width:30%;
+	min-width:360px;
+
+}
+.navright{
+	float:right;
+	font-size: 10px;	
+	font-family:"myriad Pro";
+	width:20%;
+	min-width:170px;
+	
+	
+	
+}
+
+.nav1 a,.navright a{
+	
+	text-decoration: none;
+    color: white;
+}
+
+.nav1 li{
+	text-style:none;
+	display:inline;
+	margin-right:5%;
+	float:left;;
+	
+	
+}
+.navright li{
+	text-style:none;
+	float:right;
+	display:inline;
+	margin-left:8%;
+}
+
+.footer{
+	font-size:12px;
+}
+
+.footer-left{
+	display:block;
+	float:left
+	width:58%;
+	min-width:500px;
+	
+}
+
+.footer-left li{
+	display:inline;
+	float:left;
+	text-decoration:none;
+	margin-left:1%;
+}
+
+.footer-right {
+	float:right;
+	display:block;
+	color:#ca006c;
+	width:42%;
+	min-width:335px;
+	
+}
+.frogpad{
+	font-weight:bold;
+	margin-right:5px;
+	font-size:12px;
+
+}
+
+.footer-right li{
+	float:right;
+	text-decoration:none;
+	display:inline;
+	margin-right:1%;
+}
+
+.copyright{
+	color:#4d4d4d;
+}
+
+/* Slideshow & Billboard Images */      
+#top-zone{
+	clear:both;
+	overflow:hidden;
+	margin:0 auto; 
+	margin-left:25%;
+	
+}
+ /*Here to keep images hidden in IE mostly*/  
+      
+#billboard{
+	width:60%;  
+	margin-top:5%;
+	margin-left:14%; 
+	overflow:hidden; 
+	background:url('images/billboard-bg.jpg') no-repeat top center;
+	position:absolute;
+} 
+#s2{
+	margin-left: 230px;
+    margin-top: 290px;
+    position: absolute;
+	
+}
+.slideshow{
+	width:100%; 
+	height:500px; 
+	margin:10px; 
+	overflow:hidden;
+}  
+
+.slideshow li{
+	list-style:none; 
+	float:left; 
+	display:inline; 
+	position:relative;
+	height:500px;
+} 
+.edge-holders{
+	width:940px; 
+	height:400px; 
+	background:url('img/slidernav.png') no-repeat top center; 
+	position:relative; 
+	margin:10px; 
+	z-index:10; 
+	top:-420px;
+}

@@ -1,0 +1,25 @@
+button,
+.button,
+input[type=submit],
+input[type=reset],
+input[type=button],
+.frog-nav li,
+.frog-nav li a,
+.job .button.cancel:before,
+.job .button.submit:after,
+#jobs .job .apply-now:after {
+	zoom:1;
+	*display:inline;
+}
+
+.frog-nav li { vertical-align:top; }
+.frog-nav li a { vertical-align:baseline; }
+
+button,
+button.button,
+input[type=submit],
+input[type=reset],
+input[type=button] { padding-top:2px; }
+
+.template-front-page #content { padding-top:514px; }
+#promos { margin-top:0; }

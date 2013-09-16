@@ -1,0 +1,29 @@
+@import"../css/reset.css";
+@import"../css/flexslider.css";
+
+html {overflow-y:scroll;}
+body {
+	position:relative;
+}
+html,body {
+	height:100%;
+}
+img {
+	max-width:100%;
+	height:auto;
+}
+/* GLOBAL STRUCTURE
+========================================================================= */
+.clear {
+	clear:both;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+	height:0;
+	width:100%;
+}
+
+.main {
+	width:800px;
+	margin:0 auto;
+}

@@ -1,0 +1,27 @@
+#container {margin: 0 auto;width: 800px; height: 480px; position:relative;}
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flex-pauseplay span {text-transform: capitalize;}
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+
+.flexslider {
+	width: 100%;
+	margin: 0;
+	position: relative;
+}
+.flexslider .slides img {
+	max-width: 100%;
+	display: block;
+}
+	
+/* Control Nav */
+.flex-direction-nav {
+	display:none;
+}
+
+.flex-control-nav {
+	display:none;
+}
